@@ -10,6 +10,9 @@ tabella di compatibilità: https://www.tensorflow.org/install/source#gpu
 4-esegue il file train_multi_gpu.py dopo aver controllato : NUM_CLASSES, e il path di dati.  
 5-Controlla il tipo di esperimento nel file face_dataset.py  
 6-per addestrare usando la normale: python train_multi_gpu.py --normal  
-7- Pulisci la cartella log prima ogni esperimento.  
+7- Pulisci la cartella log prima ogni esperimento.    
+8- Per eseguire l'esperimento con weights, esegui il file calculate_weights.py,
+e poi modifica la funzione getloss() all'interno dei file dei modelli nella cartella models.
+
 
 
